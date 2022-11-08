@@ -23,8 +23,10 @@ Can type any word that has a "qu" in the first syllable in the text input (e.g. 
 Can hit the submit button
 Can see the words that have a "qu" in the first syllable translated to Pig Latin and rendered to the page (e.g. ealsquay)
 
-
-
+/////////create a function that takes words beggining with "QU",
+/////utilize .slice to access index 0,1 if it equals to "qu". 
+/////if it === 'qu', then .push(quay) on the array.
+/////
 Story 3: In order to see English words converted to Pig Latin, as the user of the application, I need to see words that have no vowels other than "y" translated by moving all the consonant to the end and add "ay".
 
 Branch: y-functionality

@@ -40,10 +40,19 @@ const App = () => {
             return eachWord + "way"
       }
 
+
+      // if( eachWord.split("qu").join("") + "quay"
+      //   
+      //   return eachWord.split("qu") + "quay"
+      
+        
+        
       
     
 
-      // ACTION ITEM: this return will be the output of your Pig Latin'd code
+     
+
+// ACTION ITEM: this return will be the output of your Pig Latin'd code
       return eachWord 
     })
 
