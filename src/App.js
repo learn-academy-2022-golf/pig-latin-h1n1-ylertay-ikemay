@@ -84,7 +84,7 @@ const App = () => {
   return (
     <div className="page-container">
       <div className="body-container">
-        <h1>Pig Latin Translator</h1>
+        <h1>H1N1-Latin Translator</h1>
         <img
           src={butcherPigImage}
           alt="pig with butcher cut names in pig latin"
@@ -92,7 +92,7 @@ const App = () => {
         />
 
         <div className="input-section">
-          <h4>Enter phrase to be translated:</h4>
+          <h4>Please enter English only...</h4>
           <input
             type="text"
             className="user-input"
@@ -105,7 +105,7 @@ const App = () => {
         </div>
         <p>{inputTranslated}</p>
       </div>
-      <footer>&copy; 2022 | Coded by: Your Names Here!</footer>
+      <footer>&copy; 2022 | Coded by: Mike and Tyler...from Neptune!</footer>
     </div>
   )
 }
