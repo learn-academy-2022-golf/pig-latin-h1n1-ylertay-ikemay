@@ -40,10 +40,19 @@ const App = () => {
             return eachWord + "way"
       }
 
+
+      // if( eachWord.split("qu").join("") + "quay"
+      //   
+      //   return eachWord.split("qu") + "quay"
+      
+        
+        
       
     
 
-      // ACTION ITEM: this return will be the output of your Pig Latin'd code
+     
+
+// ACTION ITEM: this return will be the output of your Pig Latin'd code
       return eachWord 
     })
 
@@ -75,7 +84,7 @@ const App = () => {
   return (
     <div className="page-container">
       <div className="body-container">
-        <h1>Pig Latin Translator</h1>
+        <h1>H1N1-Latin Translator</h1>
         <img
           src={butcherPigImage}
           alt="pig with butcher cut names in pig latin"
@@ -83,7 +92,7 @@ const App = () => {
         />
 
         <div className="input-section">
-          <h4>Enter phrase to be translated:</h4>
+          <h4>Please enter English only...</h4>
           <input
             type="text"
             className="user-input"
@@ -96,7 +105,7 @@ const App = () => {
         </div>
         <p>{inputTranslated}</p>
       </div>
-      <footer>&copy; 2022 | Coded by: Your Names Here!</footer>
+      <footer>&copy; 2022 | Coded by: Mike and Tyler...from Neptune!</footer>
     </div>
   )
 }
